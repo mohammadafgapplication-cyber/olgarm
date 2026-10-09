@@ -64,7 +64,3 @@ LEGAL_NAME = "Mohammad"
 # For more than one of each, store them in KV under the key `accounts` from the
 # local dashboard's Accounts tab instead. Once KV holds at least one account,
 # these four are ignored.
-
-
-DISABLE_SELF_COMMENT_GUARD = "true"
-DISABLE_COOLDOWN = "true"
