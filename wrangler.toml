@@ -31,16 +31,16 @@ IG_LOGIN_MODE = "facebook"
 GRAPH_VERSION = "v26.0"
 # "true" logs every match and skips every outbound API call, so nothing is sent.
 # Ships as "true". Set it to "false" once a test comment shows a match in the logs.
-DRY_RUN = "true"
+DRY_RUN = "false"
 # Escape hatches for manual testing only. Both must stay "false" in normal use:
 # the self-comment guard is what stops a catch-all rule answering its own replies
 # forever, and the cooldown is what stops a repeat commenter being DMed every time.
 # Set one to "true" only for a deliberate test, and put it back the same session.
-DISABLE_SELF_COMMENT_GUARD = "true"
-DISABLE_COOLDOWN = "true"
+DISABLE_SELF_COMMENT_GUARD = "false"
+DISABLE_COOLDOWN = "false"
 # Shown on the public /privacy, /terms and /data-deletion pages that Meta's app
 # settings ask for. Put your own name and a real inbox here before going live.
-APP_NAME = "HushReply"
+APP_NAME = "Olgarm"
 CONTACT_EMAIL = "mohammad.afg.application@gmail.com"
 LEGAL_NAME = "Mohammad"
 
