@@ -36,7 +36,7 @@ DRY_RUN = "true"
 # the self-comment guard is what stops a catch-all rule answering its own replies
 # forever, and the cooldown is what stops a repeat commenter being DMed every time.
 # Set one to "true" only for a deliberate test, and put it back the same session.
-DISABLE_SELF_COMMENT_GUARD = "false"
+DISABLE_SELF_COMMENT_GUARD = "true"
 DISABLE_COOLDOWN = "false"
 # Shown on the public /privacy, /terms and /data-deletion pages that Meta's app
 # settings ask for. Put your own name and a real inbox here before going live.
