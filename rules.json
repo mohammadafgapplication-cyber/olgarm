@@ -1,47 +1,49 @@
 {
   "defaults": {
-    "match": "word",
+    "match": "contains",
     "caseSensitive": false,
     "platforms": [
-      "instagram",
       "facebook"
     ],
     "cooldownHours": 24
   },
-  "byAccount": {},
   "shared": [
     {
-      "id": "link",
-      "keyword": "LINK",
-      "dm": "Hey {{name}}! Here's the link you asked for 👇\n\nhttps://example.com\n\nAny questions, just reply here.",
-      "publicReply": [
-        "Just sent it to your DMs 📬",
-        "Check your DMs {{name}} 📬",
-        "Sent! Check your inbox 📬"
-      ]
-    },
-    {
       "id": "price",
-      "keyword": "price",
-      "platforms": [
-        "facebook"
+      "keyword": "قیمت",
+      "dm": "سلام {{name}}! 👋\n\nبخاری الگارم – کیفیتی که می‌توان به آن اعتماد کرد 🔥\n\n💰 قیمت: [اینجا قیمت را بنویسید]\n🚚 ارسال به ۲۳ ولایت افغانستان\n📞 سفارش از طریق واتساپ: 0777249882",
+      "publicReply": [
+        "قیمت را در دایرکت برایتان فرستادم 📬",
+        "پیام خصوصی‌تان را چک کنید {{name}} 📬"
       ],
-      "exclude": [
-        "spam"
-      ],
-      "dm": "Hi {{name}}, thanks for asking! Our full price list is here: https://example.com/pricing",
-      "publicReply": "Sent you the details in Messenger 💬",
       "like": true
     },
     {
-      "id": "catch-all",
-      "match": "any",
-      "enabled": false,
-      "includeReplies": false,
+      "id": "address",
+      "keyword": "آدرس",
+      "dm": "سلام {{name}}! 👋\n\n📍 آدرس: [آدرس فروشگاه را اینجا بنویسید]\n🚚 ارسال به سراسر افغانستان داریم\n📞 0777249882",
       "publicReply": [
-        "Thanks for the comment! 🙌",
-        "Appreciate you {{name}} 🙏"
-      ]
+        "آدرس را در دایرکت فرستادم 📬"
+      ],
+      "like": true
+    },
+    {
+      "id": "buy",
+      "keyword": "خرید",
+      "dm": "سلام {{name}}! 👋\n\nبرای خرید بخاری الگارم در واتساپ پیام بدهید:\n📞 0777249882\n\n🚚 ارسال سریع به ۲۳ ولایت ✅",
+      "publicReply": [
+        "راهنمای خرید را در دایرکت فرستادم 📬"
+      ],
+      "like": true
+    },
+    {
+      "id": "number",
+      "keyword": "شماره",
+      "dm": "سلام {{name}}! 👋\n\n📞 شماره تماس و واتساپ: 0777249882\n\nدر خدمتیم 🙏",
+      "publicReply": [
+        "شماره را در دایرکت فرستادم 📬"
+      ],
+      "like": true
     }
   ]
 }
