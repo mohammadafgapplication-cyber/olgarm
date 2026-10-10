@@ -31,7 +31,7 @@ IG_LOGIN_MODE = "facebook"
 GRAPH_VERSION = "v26.0"
 # "true" logs every match and skips every outbound API call, so nothing is sent.
 # Ships as "true". Set it to "false" once a test comment shows a match in the logs.
-DRY_RUN = "true"
+DRY_RUN = "false"
 # Escape hatches for manual testing only. Both must stay "false" in normal use:
 # the self-comment guard is what stops a catch-all rule answering its own replies
 # forever, and the cooldown is what stops a repeat commenter being DMed every time.
