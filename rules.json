@@ -13,7 +13,7 @@
     {
       "id": "heater-info",
       "keyword": "قیمت",
-      "match": "word",
+      "match": "contains",
       "platforms": [
         "facebook"
       ],
@@ -24,7 +24,7 @@
     {
       "id": "heater-info۲",
       "keyword": "آدرس",
-      "match": "word",
+      "match": "contains",
       "platforms": [
         "facebook"
       ],
@@ -35,7 +35,7 @@
     {
       "id": "heater-info۳",
       "keyword": "معلومات",
-      "match": "word",
+      "match": "contains",
       "platforms": [
         "facebook"
       ],
