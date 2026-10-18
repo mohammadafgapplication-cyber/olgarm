@@ -12,7 +12,7 @@
   "shared": [
     {
       "id": "heater-info",
-      "keyword": ".*(قیمت|چند|معلومات|جزئیات|آدرس).*",
+      "keyword": "قیمت|چند|معلومات|جزئیات|آدرس|مکان|پول",
       "match": "regex",
       "platforms": [
         "instagram",
