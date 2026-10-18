@@ -6,7 +6,7 @@
       "instagram",
       "facebook"
     ],
-    "cooldownHours": 24
+    "cooldownHours": 0
   },
   "byAccount": {},
   "shared": [
