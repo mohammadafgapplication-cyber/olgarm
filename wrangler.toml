@@ -27,7 +27,7 @@ binding = "STATE"
 # dashboard's Accounts tab.
 # "instagram" = Instagram API with Instagram Login  (token from graph.instagram.com)
 # "facebook"  = Instagram API with Facebook Login   (Page token, graph.facebook.com)
-IG_LOGIN_MODE = "facebook"
+IG_LOGIN_MODE = "instagram"
 GRAPH_VERSION = "v26.0"
 # "true" logs every match and skips every outbound API call, so nothing is sent.
 # Ships as "true". Set it to "false" once a test comment shows a match in the logs.
